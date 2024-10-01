@@ -1,0 +1,35 @@
+.list-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:0.5rem;
+  margin-bottom:4rem;
+  height:7rem;
+  border-radius: 1rem;
+  width: 98%;
+  padding: 1rem;
+  cursor: pointer;
+
+}
+.list-row:hover{
+  background-color: var(--darkgrey);
+}
+.mb-disp{
+  display: none;
+}
+@media only screen and (max-width:1000px) {
+  .td-icon{
+    display: none;
+  }
+  .td-disp{
+    display:none;
+  }
+  .dp{
+    display: none;
+  }
+  .mb-disp{
+    display:block;
+    font-size:1rem;
+  }
+
+}
